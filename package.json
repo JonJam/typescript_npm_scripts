@@ -1,0 +1,19 @@
+{
+  "name": "typescript_npm_scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description":
+    "This projects shows how you can create npm scripts with powershell",
+  "repository": "https://github.com/JonJam/typescript_npm_scripts.git",
+  "author": "Jonathan Harrison <jonjam1990@googlemail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chalk": "^0.4.31",
+    "chalk": "^2.1.0",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.2"
+  },
+  "scripts": {
+    "start": "ts-node -P tsconfig.buildScripts.json ./buildScripts/start.ts"
+  }
+}
